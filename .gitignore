@@ -1,4 +1,4 @@
-# Eclipse metadata files
+# Ignore metadata and IDE-specific files
 .metadata/
 .mylyn/
 .plugins/
@@ -6,11 +6,13 @@
 .log
 version.ini
 
-# Generated files
-**/bin/
-**/.classpath
-**/.project
-**/.settings/
+# Ignore Eclipse project files
+.settings/
+.classpath
+.project
 
-# Temporary files
+# Ignore compiled files and folders
+bin/
+
+# Ignore temporary remote system files
 RemoteSystemsTempFiles/
