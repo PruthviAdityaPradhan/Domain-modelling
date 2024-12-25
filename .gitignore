@@ -1,15 +1,4 @@
-# Ignore compiled Java files
-*.class
-
-# Ignore Eclipse IDE project files
-.settings/
-.classpath
-.project
-
-# Ignore build directory
-bin/
-
-# Ignore workspace metadata
+# Eclipse metadata files
 .metadata/
 .mylyn/
 .plugins/
@@ -17,10 +6,11 @@ bin/
 .log
 version.ini
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
+# Generated files
+**/bin/
+**/.classpath
+**/.project
+**/.settings/
 
-# Ignore logs and temporary files
-*.log
-*.tmp
+# Temporary files
+RemoteSystemsTempFiles/
